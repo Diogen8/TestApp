@@ -1,2 +1,2 @@
 # TestApp
-tesp app no react + redux
+tesp app on react + redux
