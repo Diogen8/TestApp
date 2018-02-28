@@ -1,0 +1,5 @@
+export const CHANGE_SERVICE = 'CHANGE_SERVICE';
+export const SELECT_SERVICE = 'SELECT_SERVICE';
+export const CHANGE_PROVIDER = 'CHANGE_PROVIDER'
+export const SHOW_SUMMARY = 'SHOW_SUMMARY';
+export const RESET_STATE = 'RESET_STATE';

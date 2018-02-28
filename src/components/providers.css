@@ -1,0 +1,35 @@
+.providers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.oneProvider {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background-color: #f7f7f9;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.oneProvider:not(.selected):hover {
+    box-shadow:  0 0 2px #0275d8;
+}
+.oneProvider.selected{
+    border-color: #0275d8;
+}
+.oneProvider-name {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2rem;
+}

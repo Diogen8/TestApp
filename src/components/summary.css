@@ -1,0 +1,17 @@
+.summary {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.summary-inner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background-color: #f7f7f9;
+    border-radius: 5px;
+}
+.summary-message {
+    line-height: 1.5rem;
+}

@@ -1,0 +1,37 @@
+.services {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneService {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background-color: #f7f7f9;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.oneService:not(.selected):hover {
+    box-shadow:  0 0 2px #0275d8;
+}
+.oneService.selected{
+    border-color: #0275d8;
+}
+.oneService-name {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.oneService-price {
+    line-height: 1.5rem;
+}
+.oneService-duration {
+    line-height: 1.5rem;
+}
